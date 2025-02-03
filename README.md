@@ -12,6 +12,6 @@ You can contribute in multiple ways:
 
 3. **Submit feedback**: If you prefer to send feedback via a form, fill the form [here](https://forms.gle/jC8GQEPDgdUBbzpB6)
 
-[More information](https://github.com/huyngxyz/Pillarstack/blob/main/CONTRIBUTE.md)
+[More information](https://github.com/iamernesto14/CodeCompass/blob/main/CONTRIBUTE.md)
 
 Thanks for checking out the project and making the project even better for everyone : )

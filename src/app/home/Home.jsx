@@ -4,6 +4,7 @@ import Header from "../../components/Header/Header";
 import data from "../../../data";
 import ResourceCard from "../../components/card/ResourceCard.jsx";
 import TabButton from "../../components/TabNavigation/TabButton.jsx";
+import TabButtonMobile from "../../components/TabNavigation/TabButtonMobile.jsx";
 
 function Home() {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -40,6 +41,12 @@ function Home() {
 
         {/* Navigation Tab */}
         <TabButton
+          categories={categories}
+          activeCategory={activeCategory}
+          setActiveCategory={setActiveCategory}
+          categoryCount={categoryCount} // Pass the categoryCount here
+        />
+        <TabButtonMobile
           categories={categories}
           activeCategory={activeCategory}
           setActiveCategory={setActiveCategory}

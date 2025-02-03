@@ -9,6 +9,15 @@ import atipo from "./src/assets/images/atipo.webp"
 import artdedicated from "./src/assets/images/artdirected.webp"
 import coursera from "./src/assets/images/coursera.webp"
 import utopia from "./src/assets/images/utopia__2_.webp"
+import screen from "./src/assets/images/screen_studio-2.webp"
+import figma from "./src/assets/images/Figma__2_.webp"
+import codrop from "./src/assets/images/codrops.webp"
+import curatedesign from "./src/assets/images/curateddesign.webp"
+import cotype from "./src/assets/images/cotype_Foundry_Favicon.webp"
+import easings from "./src/assets/images/easings.webp"
+import darkmode from "./src/assets/images/darkmodedesign.webp"
+import domestika from "./src/assets/images/domestika.webp"
+import coolstuff from "./src/assets/images/doingcoolstuff.webp"
 const data = [
     {
       id: 1,
@@ -93,12 +102,93 @@ const data = [
     },
     {
       id: 10,
-      name: "Utopia",
-      url: "https://www.coursera.org/",
+      name: "Clamp Calculator",
+      url: "https://utopia.fyi/clamp/calculator/?a=320,1440,32%E2%80%9480",
+      category: "Upskilling",
+      tags: ["Frontend", "Optimization"],
+      src: utopia,
+      description: "Utopia emerges when designers and developers share a systematic approach to fluidity in responsive design. Instead of designing for x number of arbitrary breakpoints, we can design a system within which elements scale proportionally and fluidly."
+    },
+    {
+      id: 11,
+      name: "CleanShot X",
+      url: "https://cleanshot.com/",
+      category: "Tools",
+      tags: ["Screen Recoding"],
+      src: screen,
+      description: "CleanShot X is the best screenshot and screen recording app for Mac with a built-in annotation tool, Cloud uploading, scrolling capture, and a lot more."
+    },
+    {
+      id: 12,
+      name: "Figma",
+      url: "https://www.figma.com/",
+      category: "Tools",
+      tags: ["Web design", "UI/UX"],
+      src: figma,
+      description: "Figma is the leading collaborative design tool for building meaningful products. Seamlessly design, prototype, develop, and collect feedback in a single platform."
+    },
+    {
+      id: 13,
+      name: "Codrops",
+      url: "https://tympanus.net/codrops/",
+      category: "Inspiration",
+      tags: ["Frontend", "Web design"],
+      src: codrop,
+      description: "Keeping web professionals inspired & up-to-date since 2009"
+    },
+    {
+      id: 14,
+      name: "CoType Foundry",
+      url: "https://cotypefoundry.com/",
+      category: "Typography",
+      tags: ["Assets", "Web design"],
+      src: cotype,
+      description: "CoType is the London based type foundry of Mark Bloom and Co."
+    },
+    {
+      id: 15,
+      name: "Curated.design",
+      url: "https://www.curated.design/",
+      category: "Inspiration",
+      tags: ["Web design", "UI/UX"],
+      src: curatedesign,
+      description: "Unleash your creativity with out-of-this-world web design inspiration from across the web."
+    },
+    {
+      id: 16,
+      name: "Easings",
+      url: "https://easings.net/",
+      category: "Tools",
+      tags: ["Animation"],
+      src: easings,
+      description: "This page helps you choose the right easing function."
+    },
+    {
+      id: 17,
+      name: "Dark Mode Design",
+      url: "https://www.darkmodedesign.com/",
+      category: "Inspiration",
+      tags: ["Frontend", "UI/UX", "Web design"],
+      src: darkmode,
+      description: "Dark Mode Design is a showcase of beautifully designed and inspiring dark mode websites. Dim the lights, lower your screen brightness, and enjoy."
+    },
+    {
+      id: 18,
+      name: "Doing Cool Stuff",
+      url: "https://www.doingcoolstuff.xyz/",
+      category: "Inspiration",
+      tags: ["UI/UX", "Web design"],
+      src: coolstuff,
+      description: "A directory of brand, motion and digital product design studios doing cool stuff."
+    },
+    {
+      id: 19,
+      name: "Domestika",
+      url: "https://www.domestika.org/",
       category: "Upskilling",
       tags: ["Learning", "Online Courses"],
-      src: utopia,
-      description: "Learn new job skills in online courses from industry leaders like Google, IBM, & Meta. Advance your career with top degrees from Michigan, Penn, Imperial & more."
+      src: domestika,
+      description: "Domestika is the largest creative community. Learn and share from anywhere with online courses taught by the best professionals in the world of design and creativity."
     }
   ];
   

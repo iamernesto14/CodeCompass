@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'OverusedGrotesk-VF';
+  src: url('../public/fonts/OverusedGrotesk-VF.woff2') format('woff2'),
+  
+}
+
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    font: inherit;
+  }
+
+  img,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  p {
+    @apply tracking-base;
+  }
+
+  .section-padding {
+    @apply  px-6 sm:px-[5%];
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply tracking-close;
+  }
+
+  ::-moz-selection {
+    background: #555555;
+  }
+  ::-webkit-selection {
+    background: #555555;
+  }
+  ::selection {
+    background: #555555;
+  }
+}

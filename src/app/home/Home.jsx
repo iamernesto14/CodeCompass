@@ -11,7 +11,6 @@ function Home() {
 
   const categories = [...new Set(data.map((item) => item.category))];
 
-  // Generate categoryCount based on the data
   const categoryCount = categories.reduce((acc, category) => {
     acc[category] = data.filter((item) => item.category === category).length;
     return acc;
@@ -44,13 +43,13 @@ function Home() {
           categories={categories}
           activeCategory={activeCategory}
           setActiveCategory={setActiveCategory}
-          categoryCount={categoryCount} // Pass the categoryCount here
+          categoryCount={categoryCount} 
         />
         <TabButtonMobile
           categories={categories}
           activeCategory={activeCategory}
           setActiveCategory={setActiveCategory}
-          categoryCount={categoryCount} // Pass the categoryCount here
+          categoryCount={categoryCount} 
         />
 
         {/* Resource Cards */}

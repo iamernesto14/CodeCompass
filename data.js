@@ -8,6 +8,7 @@ import awwwards from "./src/assets/images/awwwards.webp"
 import atipo from "./src/assets/images/atipo.webp"
 import artdedicated from "./src/assets/images/artdirected.webp"
 import coursera from "./src/assets/images/coursera.webp"
+import utopia from "./src/assets/images/utopia__2_.webp"
 const data = [
     {
       id: 1,
@@ -84,10 +85,19 @@ const data = [
     {
       id: 9,
       name: "Cousera",
-      url: "https://www.blender.org/",
+      url: "https://www.coursera.org/",
       category: "Upskilling",
       tags: ["Learning", "Online Courses"],
       src: coursera,
+      description: "Learn new job skills in online courses from industry leaders like Google, IBM, & Meta. Advance your career with top degrees from Michigan, Penn, Imperial & more."
+    },
+    {
+      id: 10,
+      name: "Utopia",
+      url: "https://www.coursera.org/",
+      category: "Upskilling",
+      tags: ["Learning", "Online Courses"],
+      src: utopia,
       description: "Learn new job skills in online courses from industry leaders like Google, IBM, & Meta. Advance your career with top degrees from Michigan, Penn, Imperial & more."
     }
   ];

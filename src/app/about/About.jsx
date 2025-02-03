@@ -11,20 +11,20 @@ function About() {
       
       <div className="text-display col-span-4">
         <h1 className="mb-8 lg:pl-8">
-          About <span className="text-light-gray">Pillarstack</span>
+          About <span className="text-light-gray">CodeCompass</span>
         </h1>
       </div>
       <div className=" col-start-6 col-span-5 max-w-xl lg:max-w-none text-h5 md:text-h4  leading-[130%] text-light-gray font-medium space-y-7">
         <p className="space-y-8 flex flex-col">
           <span>
-            I created Pillarstack to address the frustrations I encountered when
+            I created CodeCompass to address the frustrations I encountered when
             I started out in frontend development and web design. Hunting for
             resources and tools consumed a lot valuable time that could have
             been better spent honing my skills.{" "}
           </span>
 
           <span>
-            Now Pillarstack exists to support those that have similar issues.
+            Now CodeCompass exists to support those that have similar issues.
             These resources are handpicked and curated by me and other amazing
             contributors.
           </span>

@@ -43,7 +43,7 @@ function Legal() {
           </div>
           <div className="text-primary text-base xl:text-h6 2xl:text-h5 font-medium flex flex-col">
             <p className=" leading-tight">Ernest Anokye</p>
-            {/* <Clipboard /> */}
+            
           </div>
         </div>
       </div>

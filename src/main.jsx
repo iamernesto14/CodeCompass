@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Router>
+    <Router basename="/CodeCompass">
       <App />
     </Router>
   </StrictMode>

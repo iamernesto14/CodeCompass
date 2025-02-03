@@ -8,14 +8,14 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
 function CardDetails() {
-  const { name } = useParams(); // Get the dynamic name from the URL
+  const { name } = useParams(); 
 
   // Find the item that matches the name in the URL
   const item = data.find(
     (item) => item.name.toLowerCase().replace(/\s+/g, "-") === name
   );
 
-  // Handle case if no matching item is found
+ 
   if (!item) {
     return (
       <div className="text-center mt-8 text-red-500 text-xl font-semibold">

@@ -7,7 +7,7 @@ import Button from "../Button/Button";
 function Header() {
   return (
     <header className=" border-b-2 border-b-dim-gray border-opacity-30">
-      <nav className="px-0 sm:px-6 pt-9 pb-2 xl:pb-4 2xl:pb-6 border-gray border-opacity-20  flex items-center justify-between">
+      <nav className="px-0 sm:px-6 pt-5 pb-2 xl:pb-4 2xl:pb-6 border-gray border-opacity-20  flex items-center justify-between">
         <Link aria-label="Back to Home" to="/">
           <LogoSimple />
           <LogoFull />

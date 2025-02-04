@@ -44,7 +44,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        overusedgrotesk: ["OverusedGrotesk-VF"],
+        overusedgrotesk: ["OverusedGrotesk-VF", "san-serif"],
       },
 
       letterSpacing: {

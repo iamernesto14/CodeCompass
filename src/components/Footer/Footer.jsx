@@ -27,7 +27,7 @@ function Footer() {
             <a
               className="font-bold relative overflow-y-hidden w-full group h-fit"
               target="_blank"
-              href="https://www.huyng.xyz"
+              href="https://iamernesto14.github.io/anokye/"
               rel="noopener noreferrer"
             >
               <span className="flex group-hover:-translate-y-5 group-hover:opacity-0 transition-all ease-in-out-circ duration-500">

@@ -5,7 +5,7 @@ import data from "../../../data";
 import ResourceCard from "../../components/card/ResourceCard.jsx";
 import TabButton from "../../components/TabNavigation/TabButton.jsx";
 import TabButtonMobile from "../../components/TabNavigation/TabButtonMobile.jsx";
-import PaginationControls from "../../components/Pagination/PaginationControls"; // Import Pagination Component
+import PaginationControls from "../../components/Pagination/PaginationControls"; 
 
 function Home() {
   const [activeCategory, setActiveCategory] = useState("all");

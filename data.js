@@ -18,6 +18,11 @@ import easings from "./src/assets/images/easings.webp";
 import darkmode from "./src/assets/images/darkmodedesign.webp";
 import domestika from "./src/assets/images/domestika.webp";
 import coolstuff from "./src/assets/images/doingcoolstuff.webp";
+import next from "./src/assets/images/nextjs.webp";
+import mobbin from "./src/assets/images/mobbin.webp";
+import fireship from "./src/assets/images/fireship.webp";
+import flux from "./src/assets/images/FluxAcademy.webp";
+import fontshare from "./src/assets/images/fontshare.webp";
 const data = [
   {
     id: 7,
@@ -106,7 +111,7 @@ const data = [
     id: 3,
     name: "Arnau Ros",
     url: "https://www.youtube.com/c/arnauros",
-    category: "TY Channels",
+    category: "YT Channels",
     src: arnauros,
     tags: ["Freelancer", "Learning", "Web Design"],
     description: "Videos about Web Design, Webflow, Freelancing, and No Code.",
@@ -210,6 +215,56 @@ const data = [
     src: domestika,
     description:
       "Domestika is the largest creative community. Learn and share from anywhere with online courses taught by the best professionals in the world of design and creativity.",
+  },
+  {
+    id: 20,
+    name: "Next.js",
+    url: "https://nextjs.org/",
+    category: "Technologies",
+    tags: ["Framework", "Frontend"],
+    src: next,
+    description:
+      "Used by some of the world's largest companies, Next.js enables you to create full-stack Web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.",
+  },
+  {
+    id: 21,
+    name: "Mobbin",
+    url: "https://mobbin.com/browse/web/ui-elements",
+    category: "Inspiration",
+    tags: ["UI/UX", "Web Design"],
+    src: mobbin,
+    description:
+      "Browse and search across thousands of Web UI elements for UI & UX research.",
+  },
+  {
+    id: 22,
+    name: "Fireship",
+    url: "https://www.youtube.com/c/fireship/featured",
+    category: "YT Channels",
+    tags: ["Learning", "Frontend"],
+    src: fireship,
+    description:
+      "High-intensity ⚡ code tutorials and tech news to help you ship your app faster. New videos every week covering the topics every programmer should know.",
+  },
+  {
+    id: 23,
+    name: "Flux Academy",
+    url: "https://www.youtube.com/@FluxAcademy",
+    category: "YT Channels",
+    tags: ["Learning", "Web Design", "Freelancing"],
+    src: flux,
+    description:
+      "Learn to be a more successful and profitable web designer: master the latest trends, tools, and technologies, and make it easy to get and retain high-value dream clients. Overall, a great channel for web design and freelancing.",
+  },
+  {
+    id: 24,
+    name: "Fontshare",
+    url: "https://www.fontshare.com/",
+    category: "Typography",
+    tags: ["Assets", "Web Design"],
+    src: fontshare,
+    description:
+      "Fontshare is a free fonts service from the Indian Type Foundry (ITF), making quality fonts accessible to all.",
   },
 ];
 

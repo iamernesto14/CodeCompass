@@ -12,9 +12,9 @@ export default function Clipboard() {
   };
 
   return (
-    <CopyToClipboard text="hello@huyng.xyz" onCopy={handleCopy}>
+    <CopyToClipboard text="eernesto211@gmail" onCopy={handleCopy}>
       <span className="leading-tight text-light-gray font-normal cursor-pointer hover:underline">
-        {copied ? "Copied to clipboard!" : "hello@huyng.xyz"}
+        {copied ? "Copied to clipboard!" : "eernesto211@gmail.com"}
       </span>
     </CopyToClipboard>
   );

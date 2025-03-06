@@ -5,9 +5,12 @@ import data from "../../../data";
 import ResourceCard from "../../components/card/ResourceCard.jsx";
 import TabButton from "../../components/TabNavigation/TabButton.jsx";
 import TabButtonMobile from "../../components/TabNavigation/TabButtonMobile.jsx";
+import PaginationControls from "../../components/Pagination/PaginationControls"; // Import Pagination Component
 
 function Home() {
   const [activeCategory, setActiveCategory] = useState("all");
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 12; 
 
   const categories = [...new Set(data.map((item) => item.category))];
 
@@ -20,6 +23,12 @@ function Home() {
     activeCategory === "all"
       ? data
       : data.filter((item) => item.category === activeCategory);
+
+  // Pagination Logic
+  const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedData = filteredData.slice(startIndex, endIndex);
 
   return (
     <div className="font-overusedgrotesk antialiased bg-bg section-padding text-accent box-border">
@@ -43,18 +52,18 @@ function Home() {
           categories={categories}
           activeCategory={activeCategory}
           setActiveCategory={setActiveCategory}
-          categoryCount={categoryCount} 
+          categoryCount={categoryCount}
         />
         <TabButtonMobile
           categories={categories}
           activeCategory={activeCategory}
           setActiveCategory={setActiveCategory}
-          categoryCount={categoryCount} 
+          categoryCount={categoryCount}
         />
 
         {/* Resource Cards */}
         <section className="grid sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5">
-          {filteredData.map((item) => (
+          {paginatedData.map((item) => (
             <ResourceCard
               key={item.id}
               name={item.name}
@@ -64,6 +73,14 @@ function Home() {
             />
           ))}
         </section>
+
+        {/* Pagination Controls */}
+        <PaginationControls
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPrevious={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+          onNext={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+        />
       </main>
       <Footer />
     </div>

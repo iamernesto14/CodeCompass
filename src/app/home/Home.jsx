@@ -24,7 +24,7 @@ function Home() {
       ? data
       : data.filter((item) => item.category === activeCategory);
 
-  // Pagination Logic
+
   const totalPages = Math.ceil(filteredData.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;

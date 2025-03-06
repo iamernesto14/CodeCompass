@@ -1,6 +1,6 @@
 # CodeCompass - Assorted resources for frontend devs & web designers
 
-![Project Banner](https://github.com/user-attachments/assets/22f2c85d-395e-4be2-8f8c-99f34b3d858e)
+![Image](https://github.com/user-attachments/assets/22f2c85d-395e-4be2-8f8c-99f34b3d858e)
 
 ## How to contribute
 

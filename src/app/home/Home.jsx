@@ -10,7 +10,7 @@ import PaginationControls from "../../components/Pagination/PaginationControls";
 function Home() {
   const [activeCategory, setActiveCategory] = useState("all");
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 12; 
+  const itemsPerPage = 15; 
 
   const categories = [...new Set(data.map((item) => item.category))];
 
@@ -37,7 +37,7 @@ function Home() {
         <section className="mx-auto flex flex-col items-center space-y-5 mt-20 mb-10">
           <h1 className="text-display max-w-[20ch] text-center text-accent">
             Assorted resources{" "}
-            <span className="text-light-gray">
+            <span className="text-gradient2">
               for frontend developers and web designers.
             </span>
           </h1>

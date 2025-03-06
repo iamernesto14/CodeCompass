@@ -23,6 +23,21 @@ import mobbin from "./src/assets/images/mobbin.webp";
 import fireship from "./src/assets/images/fireship.webp";
 import flux from "./src/assets/images/FluxAcademy.webp";
 import fontshare from "./src/assets/images/fontshare.webp";
+import minimal from "./src/assets/images/minimal.webp";
+import kevin from "./src/assets/images/kevin.webp";
+import frontend_mentor from "./src/assets/images/frontend_mentor.webp";
+import frontend_practice from "./src/assets/images/frontend_practice.webp";
+import fonter from "./src/assets/images/fonter.webp";
+import fyi from "./src/assets/images/fyi.webp";
+import gltf from "./src/assets/images/gltf.webp";
+import godly from "./src/assets/images/godly.webp";
+import growth_design from "./src/assets/images/growth_design.webp";
+import juxtopposed from "./src/assets/images/juxtopposed.webp";
+import hyperplexed from "./src/assets/images/hyperplexed.webp";
+import lighthouse from "./src/assets/images/lighthouse.webp";
+import microcopy from "./src/assets/images/microcopy.webp";
+import gsap from "./src/assets/images/gsap.webp";
+import framer_motion from "./src/assets/images/framer_motion.webp";
 const data = [
   {
     id: 7,
@@ -265,6 +280,156 @@ const data = [
     src: fontshare,
     description:
       "Fontshare is a free fonts service from the Indian Type Foundry (ITF), making quality fonts accessible to all.",
+  },
+  {
+    id: 25,
+    name: "Fonter.design",
+    url: "https://www.footer.design/",
+    category: "Inspiration",
+    tags: ["Web Design", "UI/UX"],
+    src: fonter,
+    description:
+      "Footer is a curated gallery of the top website footer inspiration on earth. Find the footers you need and sort by type and style.",
+  },
+  {
+    id: 26,
+    name: "Frontend Mentor",
+    url: "https://www.frontendmentor.io/",
+    category: "Upskilling",
+    tags: ["Frontend", "Project-based Learning"],
+    src: frontend_mentor,
+    description:
+      "Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.",
+  },
+  {
+    id: 27,
+    name: "Godly",
+    url: "https://godly.website/",
+    category: "Inspiration",
+    tags: ["Frontend", "UI/UX", "Web Design"],
+    src: godly,
+    description:
+      "Astronomically good web design inspiration from all over the internet",
+  },
+  {
+    id: 28,
+    name: "Hyperplexed",
+    url: "https://www.youtube.com/@Hyperplexed",
+    category: "YT Channels",
+    tags: ["Frontend", "Animation"],
+    src: hyperplexed,
+    description:
+      "Hyperplexed is a fantastic resource for frontend developers, offering valuable insights into both the process and mindset of a frontend developer.",
+  },
+  {
+    id: 29,
+    name: "Lighthouse",
+    url: "https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk",
+    category: "Tools",
+    tags: ["Optimization", "Frontend"],
+    src: lighthouse,
+    description:
+      "Lighthouse is a free, automated tool designed to enhance the performance, accuracy, and overall quality of web applications.",
+  },
+  {
+    id: 30,
+    name: "Microcopy",
+    url: "https://www.microcopy.me/",
+    category: "Tools",
+    tags: ["Productivity", "Copywriting"],
+    src: microcopy,
+    description:
+      "Search micro UX copy text: slogans, headlines, notifications, CTA, error messages, email, account preferences, and much more.",
+  },
+  {
+    id: 31,
+    name: "Juxtopposed",
+    url: "https://www.youtube.com/@juxtopposed",
+    category: "YT Channels",
+    tags: ["Frontend", "UI/UX"],
+    src: juxtopposed,
+    description:
+      "An engaging and informative YouTube channel focused on UI/UX design, with some frontend content mixed in—plus plenty of cats for added fun!",
+  },
+  {
+    id: 32,
+    name: "Growth.design",
+    url: "https://growth.design/case-studies",
+    category: "Upskilling",
+    tags: ["Learning", "UI/UX", "Web Design"],
+    src: growth_design,
+    description:
+      "See exactly how companies like Tinder, Airbnb, Trello, Uber and Tesla design products that people love. One new user experience case study every month.",
+  },
+  {
+    id: 33,
+    name: "Frontend Practice",
+    url: "https://www.frontendpractice.com/",
+    category: "Upskilling",
+    tags: ["Frontend", "Project-based Learning"],
+    src: frontend_practice,
+    description:
+      "Enhance your frontend skills by replicating actual websites from real-world companies.",
+  },
+  {
+    id: 34,
+    name: "Framer Motion",
+    url: "https://www.framer.com/motion/",
+    category: "Technologies",
+    tags: ["Animation", "Library", "Frontend"],
+    src: framer_motion,
+    description:
+      "An open source motion library for React, made by Framer.",
+  },
+  {
+    id: 35,
+    name: "GSAP",
+    url: "https://gsap.com/",
+    category: "Technologies",
+    tags: ["Animation", "Library", "Frontend"],
+    src: gsap,
+    description:
+      "GSAP, developed by GreenSock, is a leading JavaScript animation library that enables you to create high-performance animations compatible with all major browsers.",
+  },
+  {
+    id: 36,
+    name: "Kevin Powell",
+    url: "https://www.youtube.com/@KevinPowell",
+    category: "YT Channels",
+    tags: ["Frontend", "Learning"],
+    src: kevin,
+    description:
+      "A YouTuber and developer who shares content focused on CSS, providing an invaluable resource for both beginners and experienced developers.",
+  },
+  {
+    id: 37,
+    name: "GLTF to JSX",
+    url: "https://gltf.pmnd.rs/",
+    category: "Tools",
+    tags: ["Frontend", "3D"],
+    src: gltf,
+    description:
+      "Export your GLTF file into JSX code",
+  },
+  {
+    id: 38,
+    name: "Frontend FYI",
+    url: "https://www.frontend.fyi/",
+    category: "YT Channels",
+    tags: ["Frontend", "Animation", "Learning"],
+    src: fyi,
+    description:
+      "An excellent channel dedicated to frontend development, where Jeroen covers best practices, interactions, animations, and more.",
+  },
+  {
+    id: 39,
+    name: "Minimal.Gallery",
+    url: "https://minimal.gallery/",
+    category: "Inspiration",
+    tags: ["Frontend", "Web Design", "3D"],
+    src: minimal,
+    description:
+      "For the love of beautiful, clean and functional websites.",
   },
 ];
 

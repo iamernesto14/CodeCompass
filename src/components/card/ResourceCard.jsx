@@ -31,7 +31,7 @@ export default function ResourceCard({name, tags, src, category}) {
           <div className="tags">
             {tags.map((tag, index) => (
               <span
-                className="pr-3 text-xs xl:text-sm 2xl:text-base text-light-gray"
+                className="pr-3 text-xs xl:text-sm 2xl:text-base text-gradient2"
                 key={index}
               >
                 {tag}

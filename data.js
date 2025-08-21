@@ -9,7 +9,7 @@ import atipo from "./src/assets/images/atipo.webp";
 import artdedicated from "./src/assets/images/artdirected.webp";
 import coursera from "./src/assets/images/coursera.webp";
 import utopia from "./src/assets/images/utopia__2_.webp";
-import screen from "./src/assets/images/screen_studio-2.webp";
+import screen from "./src/assets/images/Screen_Studio-2.webp";
 import figma from "./src/assets/images/Figma__2_.webp";
 import codrop from "./src/assets/images/codrops.webp";
 import curatedesign from "./src/assets/images/curateddesign.webp";

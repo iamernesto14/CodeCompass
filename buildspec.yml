@@ -29,7 +29,7 @@ phases:
       - echo Checking build output...
       - ls -la dist/  # Verify build output
       - echo Syncing to S3...
-      - aws s3 sync dist/ s3://$S3_BUCKET --delete  # Changed from build/ to dist/
+      - aws s3 sync dist/ s3://anokye-codecompass --delete  # Changed from build/ to dist/
       - echo Deployment completed successfully
 
 artifacts:

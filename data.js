@@ -21,7 +21,7 @@ import coolstuff from "./src/assets/images/doingcoolstuff.webp";
 import next from "./src/assets/images/nextjs.webp";
 import mobbin from "./src/assets/images/mobbin.webp";
 import fireship from "./src/assets/images/fireship.webp";
-import flux from "./src/assets/images/FluxAcademy.webp";
+import flux from "./src/assets/images/fluxAcademy.webp";
 import fontshare from "./src/assets/images/fontshare.webp";
 import minimal from "./src/assets/images/minimal.webp";
 import kevin from "./src/assets/images/kevin.webp";

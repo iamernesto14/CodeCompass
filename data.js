@@ -13,7 +13,7 @@ import screen from "./src/assets/images/Screen_Studio-2.webp";
 import figma from "./src/assets/images/Figma__2_.webp";
 import codrop from "./src/assets/images/codrops.webp";
 import curatedesign from "./src/assets/images/curateddesign.webp";
-import cotype from "./src/assets/images/cotype_Foundry_Favicon.webp";
+import cotype from "./src/assets/images/Cotype_Foundry_Favicon.webp";
 import easings from "./src/assets/images/easings.webp";
 import darkmode from "./src/assets/images/darkmodedesign.webp";
 import domestika from "./src/assets/images/domestika.webp";

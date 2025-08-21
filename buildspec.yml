@@ -8,10 +8,21 @@ phases:
       - echo Installing dependencies...
       - npm ci --legacy-peer-deps
 
+  pre_build:
+    commands:
+      - echo Pre-build phase started on `date`
+
   build:
     commands:
       - echo Building the React app...
       - npm run build
+
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Syncing to S3...
+      - aws s3 sync build/ s3://$S3_BUCKET --delete
+      - echo Deployment completed successfully
 
 artifacts:
   files:

@@ -3,14 +3,18 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 18
+      nodejs: 20  # Updated to Node 20 for React Router compatibility
     commands:
       - echo Installing dependencies...
       - npm ci --legacy-peer-deps
 
   pre_build:
-    commands:
-      - echo Pre-build phase started on `date`
+  commands:
+    - echo Pre-build phase started on `date`
+    - echo Creating missing assets directory if needed...
+    - mkdir -p src/assets/images
+    - echo Creating placeholder image if missing...
+    - touch src/assets/images/aceternity.webp || echo "File already exists"
 
   build:
     commands:
@@ -20,12 +24,14 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - echo Checking build output...
+      - ls -la dist/  # Verify build output
       - echo Syncing to S3...
-      - aws s3 sync build/ s3://$S3_BUCKET --delete
+      - aws s3 sync dist/ s3://$S3_BUCKET --delete  # Changed from build/ to dist/
       - echo Deployment completed successfully
 
 artifacts:
   files:
     - '**/*'
-  base-directory: dist
+  base-directory: dist  # Changed from build to dist (Vite uses dist/)
   discard-paths: no

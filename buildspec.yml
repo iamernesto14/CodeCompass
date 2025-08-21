@@ -9,12 +9,12 @@ phases:
       - npm ci --legacy-peer-deps
 
   pre_build:
-  commands:
-    - echo Pre-build phase started on `date`
-    - echo Creating missing assets directory if needed...
-    - mkdir -p src/assets/images
-    - echo Creating placeholder image if missing...
-    - touch src/assets/images/aceternity.webp || echo "File already exists"
+    commands:
+      - echo Pre-build phase started on `date`
+      - echo Creating missing assets directory if needed...
+      - mkdir -p src/assets/images
+      - echo Creating placeholder image if missing...
+      - touch src/assets/images/aceternity.webp || echo "File already exists"
 
   build:
     commands:

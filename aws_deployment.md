@@ -37,7 +37,7 @@ This document outlines the process of deploying a React application from GitHub 
 
 The following architecture diagram illustrates the deployment process:
 
-![Architecture Diagram](https://github.com/user-attachments/assets/bcace810-7245-426a-84a5-a4e82b1863d8)
+![Architecture Diagram](https://github.com/user-attachments/assets/c037d64b-e130-4653-80b7-010bcd09612c)
 
 
 ## Flow Summary

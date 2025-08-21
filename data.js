@@ -1,6 +1,6 @@
 // data.js
 import adobefonts from "./src/assets/images/adobefonts.webp";
-import aceternity from "./src/assets/images/aceternity.webp";
+import aceternity from "./src/assets/images/Aceternity.webp";
 import astro from "./src/assets/images/astro.webp";
 import arnauros from "./src/assets/images/arnau.webp";
 import blender from "./src/assets/images/Blender.webp";
@@ -21,7 +21,7 @@ import coolstuff from "./src/assets/images/doingcoolstuff.webp";
 import next from "./src/assets/images/nextjs.webp";
 import mobbin from "./src/assets/images/mobbin.webp";
 import fireship from "./src/assets/images/fireship.webp";
-import flux from "./src/assets/images/fluxAcademy.webp";
+import flux from "./src/assets/images/fluxacademy.webp";
 import fontshare from "./src/assets/images/fontshare.webp";
 import minimal from "./src/assets/images/minimal.webp";
 import kevin from "./src/assets/images/kevin.webp";

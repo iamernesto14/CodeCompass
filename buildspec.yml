@@ -11,10 +11,12 @@ phases:
   pre_build:
     commands:
       - echo Pre-build phase started on `date`
-      - echo Creating missing assets directory if needed...
       - mkdir -p src/assets/images
-      - echo Creating placeholder image if missing...
-      - touch src/assets/images/aceternity.webp || echo "File already exists"
+      - echo Creating placeholder images if missing...
+      - touch src/assets/images/aceternity.webp
+      - touch src/assets/images/cotype_Foundry_Favicon.webp
+      - touch src/assets/images/FluxAcademy.webp
+
 
   build:
     commands:
